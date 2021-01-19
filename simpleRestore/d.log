@@ -1,0 +1,568 @@
+(00.000090) ========================================
+(00.000141) Dumping processes (pid: 5482)
+(00.000153) ========================================
+(00.000182) irmap: Searching irmap cache in work dir
+(00.000218) No irmap-cache image
+(00.000229) irmap: Searching irmap cache in parent
+(00.000243) irmap: No irmap cache
+(00.000472) cg-prop: Parsing controller "cpu"
+(00.000488) cg-prop: 	Strategy "replace"
+(00.000498) cg-prop: 	Property "cpu.shares"
+(00.000507) cg-prop: 	Property "cpu.cfs_period_us"
+(00.000515) cg-prop: 	Property "cpu.cfs_quota_us"
+(00.000523) cg-prop: 	Property "cpu.rt_period_us"
+(00.000530) cg-prop: 	Property "cpu.rt_runtime_us"
+(00.000538) cg-prop: Parsing controller "memory"
+(00.000547) cg-prop: 	Strategy "replace"
+(00.000555) cg-prop: 	Property "memory.limit_in_bytes"
+(00.000563) cg-prop: 	Property "memory.memsw.limit_in_bytes"
+(00.000571) cg-prop: 	Property "memory.swappiness"
+(00.000579) cg-prop: 	Property "memory.soft_limit_in_bytes"
+(00.000586) cg-prop: 	Property "memory.move_charge_at_immigrate"
+(00.000594) cg-prop: 	Property "memory.oom_control"
+(00.000602) cg-prop: 	Property "memory.use_hierarchy"
+(00.000610) cg-prop: 	Property "memory.kmem.limit_in_bytes"
+(00.000617) cg-prop: 	Property "memory.kmem.tcp.limit_in_bytes"
+(00.000625) cg-prop: Parsing controller "cpuset"
+(00.000639) cg-prop: 	Strategy "replace"
+(00.000648) cg-prop: 	Property "cpuset.cpus"
+(00.000656) cg-prop: 	Property "cpuset.mems"
+(00.000663) cg-prop: 	Property "cpuset.memory_migrate"
+(00.000671) cg-prop: 	Property "cpuset.cpu_exclusive"
+(00.000679) cg-prop: 	Property "cpuset.mem_exclusive"
+(00.000687) cg-prop: 	Property "cpuset.mem_hardwall"
+(00.000694) cg-prop: 	Property "cpuset.memory_spread_page"
+(00.000722) cg-prop: 	Property "cpuset.memory_spread_slab"
+(00.000732) cg-prop: 	Property "cpuset.sched_load_balance"
+(00.000740) cg-prop: 	Property "cpuset.sched_relax_domain_level"
+(00.000748) cg-prop: Parsing controller "blkio"
+(00.000756) cg-prop: 	Strategy "replace"
+(00.000764) cg-prop: 	Property "blkio.weight"
+(00.000773) cg-prop: Parsing controller "freezer"
+(00.000781) cg-prop: 	Strategy "replace"
+(00.000789) cg-prop: Parsing controller "perf_event"
+(00.000797) cg-prop: 	Strategy "replace"
+(00.000805) cg-prop: Parsing controller "net_cls"
+(00.000813) cg-prop: 	Strategy "replace"
+(00.000821) cg-prop: 	Property "net_cls.classid"
+(00.000829) cg-prop: Parsing controller "net_prio"
+(00.000837) cg-prop: 	Strategy "replace"
+(00.000845) cg-prop: 	Property "net_prio.ifpriomap"
+(00.000853) cg-prop: Parsing controller "pids"
+(00.000861) cg-prop: 	Strategy "replace"
+(00.000869) cg-prop: 	Property "pids.max"
+(00.000877) cg-prop: Parsing controller "devices"
+(00.000885) cg-prop: 	Strategy "replace"
+(00.000893) cg-prop: 	Property "devices.list"
+(00.000986) Perparing image inventory (version 1)
+(00.001047) Add pid ns 1 pid 5627
+(00.001072) Add net ns 2 pid 5627
+(00.001097) Add ipc ns 3 pid 5627
+(00.001118) Add uts ns 4 pid 5627
+(00.001138) Add mnt ns 5 pid 5627
+(00.001158) Add user ns 6 pid 5627
+(00.001179) Add cgroup ns 7 pid 5627
+(00.001190) cg: Dumping cgroups for 5627
+(00.001260) cg: Set 1 is criu one
+(00.001577) Seized task 5482, state 1
+(00.001670) 	Seizing 5482's 5484 thread
+(00.001950) 	Seizing 5482's 5485 thread
+(00.002246) 	Seizing 5482's 5486 thread
+(00.002536) 	Seizing 5482's 5487 thread
+(00.002827) 	Seizing 5482's 5488 thread
+(00.003094) Collected (3 attempts, 0 in_progress)
+(00.003228) Collected (4 attempts, 0 in_progress)
+(00.003265) Collected 5482 in 1 state
+(00.003382) Lock network
+(00.003528) 	type sysfs source sysfs mnt_id 25 s_dev 0x17 / @ ./sys flags 0x30000e options 
+(00.003560) 	type proc source proc mnt_id 26 s_dev 0x5 / @ ./proc flags 0x30000e options 
+(00.003586) 	type devtmpfs source udev mnt_id 27 s_dev 0x6 / @ ./dev flags 0x300002 options size=8153652k,nr_inodes=2038413,mode=755
+(00.003609) 	type devpts source devpts mnt_id 28 s_dev 0x18 / @ ./dev/pts flags 0x30000a options gid=5,mode=620,ptmxmode=000
+(00.003644) 	type tmpfs source tmpfs mnt_id 29 s_dev 0x19 / @ ./run flags 0x30000a options size=1635564k,mode=755
+(00.003664) 	type ext4 source /dev/sdb4 mnt_id 30 s_dev 0x800014 / @ ./ flags 0x300000 options errors=remount-ro
+(00.003704) 	type securityfs source securityfs mnt_id 31 s_dev 0x7 / @ ./sys/kernel/security flags 0x30000e options 
+(00.003723) 	type tmpfs source tmpfs mnt_id 32 s_dev 0x1a / @ ./dev/shm flags 0x1100006 options 
+(00.003742) 	type tmpfs source tmpfs mnt_id 33 s_dev 0x1b / @ ./run/lock flags 0x30000e options size=5120k
+(00.003761) 	type tmpfs source tmpfs mnt_id 34 s_dev 0x1c / @ ./sys/fs/cgroup flags 0x110000f options mode=755
+(00.003781) 	type cgroup2 source cgroup mnt_id 35 s_dev 0x1d / @ ./sys/fs/cgroup/unified flags 0x30000e options nsdelegate
+(00.003862) 	type cgroup source cgroup mnt_id 36 s_dev 0x1e / @ ./sys/fs/cgroup/systemd flags 0x30000e options xattr,name=systemd
+(00.003888) 	type pstore source pstore mnt_id 37 s_dev 0x1f / @ ./sys/fs/pstore flags 0x30000e options 
+(00.003907) 	type efivarfs source efivarfs mnt_id 38 s_dev 0x20 / @ ./sys/firmware/efi/efivars flags 0x30000e options 
+(00.003925) 	type cgroup source cgroup mnt_id 39 s_dev 0x21 / @ ./sys/fs/cgroup/rdma flags 0x30000e options rdma
+(00.003945) 	type cgroup source cgroup mnt_id 40 s_dev 0x22 / @ ./sys/fs/cgroup/freezer flags 0x30000e options freezer
+(00.003963) 	type cgroup source cgroup mnt_id 41 s_dev 0x23 / @ ./sys/fs/cgroup/cpuset flags 0x30000e options cpuset
+(00.003982) 	type cgroup source cgroup mnt_id 42 s_dev 0x24 / @ ./sys/fs/cgroup/net_cls,net_prio flags 0x30000e options net_cls,net_prio
+(00.004013) 	type cgroup source cgroup mnt_id 43 s_dev 0x25 / @ ./sys/fs/cgroup/hugetlb flags 0x30000e options hugetlb
+(00.004034) 	type cgroup source cgroup mnt_id 44 s_dev 0x26 / @ ./sys/fs/cgroup/cpu,cpuacct flags 0x30000e options cpu,cpuacct
+(00.004052) 	type cgroup source cgroup mnt_id 45 s_dev 0x27 / @ ./sys/fs/cgroup/blkio flags 0x30000e options blkio
+(00.004129) 	type cgroup source cgroup mnt_id 46 s_dev 0x28 / @ ./sys/fs/cgroup/devices flags 0x30000e options devices
+(00.004148) 	type cgroup source cgroup mnt_id 47 s_dev 0x29 / @ ./sys/fs/cgroup/pids flags 0x30000e options pids
+(00.004166) 	type cgroup source cgroup mnt_id 48 s_dev 0x2a / @ ./sys/fs/cgroup/memory flags 0x30000e options memory
+(00.004184) 	type cgroup source cgroup mnt_id 49 s_dev 0x2b / @ ./sys/fs/cgroup/perf_event flags 0x30000e options perf_event
+(00.004207) 	type autofs source systemd-1 mnt_id 50 s_dev 0x2c / @ ./proc/sys/fs/binfmt_misc flags 0x300000 options fd=40,pgrp=1,timeout=0,minproto=5,maxproto=5,direct,pipe_ino=16939
+(00.004235) 	type mqueue source mqueue mnt_id 51 s_dev 0x15 / @ ./dev/mqueue flags 0x300000 options 
+(00.004253) 	type debugfs source debugfs mnt_id 52 s_dev 0x8 / @ ./sys/kernel/debug flags 0x300000 options 
+(00.004271) 	type hugetlbfs source hugetlbfs mnt_id 53 s_dev 0x2d / @ ./dev/hugepages flags 0x300000 options pagesize=2M
+(00.004288) 	type configfs source configfs mnt_id 54 s_dev 0x16 / @ ./sys/kernel/config flags 0x300000 options 
+(00.004305) 	type fusectl source fusectl mnt_id 55 s_dev 0x2e / @ ./sys/fs/fuse/connections flags 0x300000 options 
+(00.004375) 	type squashfs source /dev/loop0 mnt_id 88 s_dev 0x700000 / @ ./snap/pycharm-professional/228 flags 0x300005 options 
+(00.004393) 	type squashfs source /dev/loop1 mnt_id 90 s_dev 0x700001 / @ ./snap/core/10583 flags 0x300005 options 
+(00.004416) 	type squashfs source /dev/loop2 mnt_id 194 s_dev 0x700002 / @ ./snap/webstorm/187 flags 0x300005 options 
+(00.004435) 	type squashfs source /dev/loop4 mnt_id 196 s_dev 0x700004 / @ ./snap/snapd/10707 flags 0x300005 options 
+(00.004451) 	type squashfs source /dev/loop3 mnt_id 198 s_dev 0x700003 / @ ./snap/gtk-common-themes/1506 flags 0x300005 options 
+(00.004467) 	type squashfs source /dev/loop5 mnt_id 200 s_dev 0x700005 / @ ./snap/gnome-3-34-1804/60 flags 0x300005 options 
+(00.004489) 	type squashfs source /dev/loop6 mnt_id 202 s_dev 0x700006 / @ ./snap/pycharm-professional/226 flags 0x300005 options 
+(00.004506) 	type squashfs source /dev/loop7 mnt_id 204 s_dev 0x700007 / @ ./snap/core18/1944 flags 0x300005 options 
+(00.004524) 	type squashfs source /dev/loop9 mnt_id 206 s_dev 0x700009 / @ ./snap/gnome-logs/100 flags 0x300005 options 
+(00.004550) 	type squashfs source /dev/loop10 mnt_id 209 s_dev 0x70000a / @ ./snap/mailspring/488 flags 0x300005 options 
+(00.004567) 	type squashfs source /dev/loop11 mnt_id 211 s_dev 0x70000b / @ ./snap/core18/1932 flags 0x300005 options 
+(00.004582) 	type squashfs source /dev/loop13 mnt_id 213 s_dev 0x70000d / @ ./snap/webstorm/185 flags 0x300005 options 
+(00.004660) 	type squashfs source /dev/loop8 mnt_id 215 s_dev 0x700008 / @ ./snap/gnome-3-34-1804/66 flags 0x300005 options 
+(00.004679) 	type squashfs source /dev/loop15 mnt_id 217 s_dev 0x70000f / @ ./snap/clion/137 flags 0x300005 options 
+(00.004695) 	type squashfs source /dev/loop14 mnt_id 219 s_dev 0x70000e / @ ./snap/core/10444 flags 0x300005 options 
+(00.004733) 	type squashfs source /dev/loop12 mnt_id 221 s_dev 0x70000c / @ ./snap/gnome-system-monitor/148 flags 0x300005 options 
+(00.004750) 	type squashfs source /dev/loop17 mnt_id 223 s_dev 0x700011 / @ ./snap/gtk-common-themes/1514 flags 0x300005 options 
+(00.004769) 	type squashfs source /dev/loop18 mnt_id 225 s_dev 0x700012 / @ ./snap/snapd/10492 flags 0x300005 options 
+(00.004784) 	type squashfs source /dev/loop16 mnt_id 227 s_dev 0x700010 / @ ./snap/clion/138 flags 0x300005 options 
+(00.004812) 	type vfat source /dev/sda2 mnt_id 92 s_dev 0x800002 / @ ./boot/efi flags 0x300000 options fmask=0077,dmask=0077,codepage=437,iocharset=iso8859-1,shortname=mixed,errors=remount-ro
+(00.004830) 	type binfmt_misc source binfmt_misc mnt_id 94 s_dev 0x30 / @ ./proc/sys/fs/binfmt_misc flags 0x300000 options 
+(00.004853) 	type tmpfs source tmpfs mnt_id 696 s_dev 0x35 / @ ./run/user/1000 flags 0x300006 options size=1635560k,mode=700,uid=1000,gid=1000
+(00.004889) 	type fuse source gvfsd-fuse mnt_id 708 s_dev 0x36 / @ ./run/user/1000/gvfs flags 0x300006 options user_id=1000,group_id=1000
+(00.004911) 	type tmpfs source tmpfs mnt_id 640 s_dev 0x34 / @ ./run/user/0 flags 0x300006 options size=1635560k,mode=700
+(00.004931) mnt: Building mountpoints tree
+(00.004959) mnt: 	Resorting siblings on 30
+(00.004967) mnt: 	Resorting siblings on 92
+(00.004975) mnt: 	Resorting siblings on 227
+(00.004983) mnt: 	Resorting siblings on 225
+(00.004991) mnt: 	Resorting siblings on 223
+(00.004998) mnt: 	Resorting siblings on 221
+(00.005006) mnt: 	Resorting siblings on 219
+(00.005013) mnt: 	Resorting siblings on 217
+(00.005020) mnt: 	Resorting siblings on 215
+(00.005028) mnt: 	Resorting siblings on 213
+(00.005035) mnt: 	Resorting siblings on 211
+(00.005042) mnt: 	Resorting siblings on 209
+(00.005050) mnt: 	Resorting siblings on 206
+(00.005057) mnt: 	Resorting siblings on 204
+(00.005065) mnt: 	Resorting siblings on 202
+(00.005072) mnt: 	Resorting siblings on 200
+(00.005080) mnt: 	Resorting siblings on 198
+(00.005087) mnt: 	Resorting siblings on 196
+(00.005094) mnt: 	Resorting siblings on 194
+(00.005102) mnt: 	Resorting siblings on 90
+(00.005109) mnt: 	Resorting siblings on 88
+(00.005119) mnt: 	Resorting siblings on 29
+(00.005127) mnt: 	Resorting siblings on 640
+(00.005134) mnt: 	Resorting siblings on 696
+(00.005141) mnt: 	Resorting siblings on 708
+(00.005149) mnt: 	Resorting siblings on 33
+(00.005157) mnt: 	Resorting siblings on 27
+(00.005164) mnt: 	Resorting siblings on 53
+(00.005172) mnt: 	Resorting siblings on 51
+(00.005179) mnt: 	Resorting siblings on 32
+(00.005187) mnt: 	Resorting siblings on 28
+(00.005194) mnt: 	Resorting siblings on 26
+(00.005202) mnt: 	Resorting siblings on 50
+(00.005209) mnt: 	Resorting siblings on 94
+(00.005216) mnt: 	Resorting siblings on 25
+(00.005224) mnt: 	Resorting siblings on 55
+(00.005231) mnt: 	Resorting siblings on 54
+(00.005239) mnt: 	Resorting siblings on 52
+(00.005246) mnt: 	Resorting siblings on 38
+(00.005254) mnt: 	Resorting siblings on 37
+(00.005261) mnt: 	Resorting siblings on 34
+(00.005268) mnt: 	Resorting siblings on 49
+(00.005276) mnt: 	Resorting siblings on 48
+(00.005283) mnt: 	Resorting siblings on 47
+(00.005291) mnt: 	Resorting siblings on 46
+(00.005298) mnt: 	Resorting siblings on 45
+(00.005306) mnt: 	Resorting siblings on 44
+(00.005323) mnt: 	Resorting siblings on 43
+(00.005330) mnt: 	Resorting siblings on 42
+(00.005338) mnt: 	Resorting siblings on 41
+(00.005345) mnt: 	Resorting siblings on 40
+(00.005353) mnt: 	Resorting siblings on 39
+(00.005360) mnt: 	Resorting siblings on 36
+(00.005367) mnt: 	Resorting siblings on 35
+(00.005375) mnt: 	Resorting siblings on 31
+(00.005382) mnt: Done:
+(00.005390) mnt: [./](30->1)
+(00.005399) mnt:  [./run](29->30)
+(00.005407) mnt:   [./run/lock](33->29)
+(00.005416) mnt:   <--
+(00.005423) mnt:   [./run/user/0](640->29)
+(00.005431) mnt:   <--
+(00.005439) mnt:   [./run/user/1000](696->29)
+(00.005447) mnt:    [./run/user/1000/gvfs](708->696)
+(00.005455) mnt:    <--
+(00.005463) mnt:   <--
+(00.005470) mnt:  <--
+(00.005477) mnt:  [./sys](25->30)
+(00.005485) mnt:   [./sys/kernel/config](54->25)
+(00.005493) mnt:   <--
+(00.005501) mnt:   [./sys/kernel/security](31->25)
+(00.005508) mnt:   <--
+(00.005516) mnt:   [./sys/fs/cgroup](34->25)
+(00.005523) mnt:    [./sys/fs/cgroup/perf_event](49->34)
+(00.005531) mnt:    <--
+(00.005538) mnt:    [./sys/fs/cgroup/unified](35->34)
+(00.005546) mnt:    <--
+(00.005554) mnt:    [./sys/fs/cgroup/systemd](36->34)
+(00.005561) mnt:    <--
+(00.005569) mnt:    [./sys/fs/cgroup/rdma](39->34)
+(00.005576) mnt:    <--
+(00.005584) mnt:    [./sys/fs/cgroup/freezer](40->34)
+(00.005591) mnt:    <--
+(00.005598) mnt:    [./sys/fs/cgroup/cpuset](41->34)
+(00.005606) mnt:    <--
+(00.005613) mnt:    [./sys/fs/cgroup/net_cls,net_prio](42->34)
+(00.005621) mnt:    <--
+(00.005628) mnt:    [./sys/fs/cgroup/hugetlb](43->34)
+(00.005636) mnt:    <--
+(00.005643) mnt:    [./sys/fs/cgroup/cpu,cpuacct](44->34)
+(00.005651) mnt:    <--
+(00.005658) mnt:    [./sys/fs/cgroup/blkio](45->34)
+(00.005666) mnt:    <--
+(00.005673) mnt:    [./sys/fs/cgroup/devices](46->34)
+(00.005681) mnt:    <--
+(00.005688) mnt:    [./sys/fs/cgroup/pids](47->34)
+(00.005696) mnt:    <--
+(00.005703) mnt:    [./sys/fs/cgroup/memory](48->34)
+(00.005711) mnt:    <--
+(00.005718) mnt:   <--
+(00.005725) mnt:   [./sys/fs/pstore](37->25)
+(00.005733) mnt:   <--
+(00.005740) mnt:   [./sys/firmware/efi/efivars](38->25)
+(00.005748) mnt:   <--
+(00.005756) mnt:   [./sys/kernel/debug](52->25)
+(00.005763) mnt:   <--
+(00.005771) mnt:   [./sys/fs/fuse/connections](55->25)
+(00.005778) mnt:   <--
+(00.005786) mnt:  <--
+(00.005793) mnt:  [./proc](26->30)
+(00.005801) mnt:   [./proc/sys/fs/binfmt_misc](50->26)
+(00.005809) mnt:    [./proc/sys/fs/binfmt_misc](94->50)
+(00.005816) mnt:    <--
+(00.005824) mnt:   <--
+(00.005831) mnt:  <--
+(00.005838) mnt:  [./dev](27->30)
+(00.005846) mnt:   [./dev/hugepages](53->27)
+(00.005854) mnt:   <--
+(00.005861) mnt:   [./dev/pts](28->27)
+(00.005869) mnt:   <--
+(00.005876) mnt:   [./dev/shm](32->27)
+(00.005884) mnt:   <--
+(00.005891) mnt:   [./dev/mqueue](51->27)
+(00.005899) mnt:   <--
+(00.005906) mnt:  <--
+(00.005914) mnt:  [./boot/efi](92->30)
+(00.005921) mnt:  <--
+(00.005929) mnt:  [./snap/pycharm-professional/228](88->30)
+(00.005937) mnt:  <--
+(00.005944) mnt:  [./snap/core/10583](90->30)
+(00.005952) mnt:  <--
+(00.005959) mnt:  [./snap/webstorm/187](194->30)
+(00.005967) mnt:  <--
+(00.005974) mnt:  [./snap/snapd/10707](196->30)
+(00.005982) mnt:  <--
+(00.005989) mnt:  [./snap/gtk-common-themes/1506](198->30)
+(00.005997) mnt:  <--
+(00.006004) mnt:  [./snap/gnome-3-34-1804/60](200->30)
+(00.006012) mnt:  <--
+(00.006019) mnt:  [./snap/pycharm-professional/226](202->30)
+(00.006027) mnt:  <--
+(00.006034) mnt:  [./snap/core18/1944](204->30)
+(00.006042) mnt:  <--
+(00.006049) mnt:  [./snap/gnome-logs/100](206->30)
+(00.006057) mnt:  <--
+(00.006064) mnt:  [./snap/mailspring/488](209->30)
+(00.006072) mnt:  <--
+(00.006079) mnt:  [./snap/core18/1932](211->30)
+(00.006087) mnt:  <--
+(00.006094) mnt:  [./snap/webstorm/185](213->30)
+(00.006102) mnt:  <--
+(00.006109) mnt:  [./snap/gnome-3-34-1804/66](215->30)
+(00.006116) mnt:  <--
+(00.006124) mnt:  [./snap/clion/137](217->30)
+(00.006132) mnt:  <--
+(00.006139) mnt:  [./snap/core/10444](219->30)
+(00.006147) mnt:  <--
+(00.006154) mnt:  [./snap/gnome-system-monitor/148](221->30)
+(00.006162) mnt:  <--
+(00.006175) mnt:  [./snap/gtk-common-themes/1514](223->30)
+(00.006184) mnt:  <--
+(00.006191) mnt:  [./snap/snapd/10492](225->30)
+(00.006199) mnt:  <--
+(00.006206) mnt:  [./snap/clion/138](227->30)
+(00.006214) mnt:  <--
+(00.006221) mnt: <--
+(00.006281) Collecting netns 2/5627
+(00.008840) Collect packet sock 27243 0
+(00.008845) Collect packet sock 27244 34958
+(00.008847) Collect packet sock 27251 35085
+(00.008849) Collect packet sock 31146 0
+(00.008850) Collect packet sock 30274 3
+(00.008901) ========================================
+(00.008903) Dumping task (pid: 5482)
+(00.008905) ========================================
+(00.008906) Obtaining task stat ... 
+(00.008926) 
+(00.008928) Collecting mappings (pid: 5482)
+(00.008929) ----------------------------------------
+(00.008984) Dumping path for -3 fd via self 8 [/home/frank/CLionProjects/DAG/tasksWithPipe.out]
+(00.009113) Dumping path for -3 fd via self 8 [/lib/x86_64-linux-gnu/libc-2.27.so]
+(00.009164) Dumping path for -3 fd via self 8 [/lib/x86_64-linux-gnu/libpthread-2.27.so]
+(00.009212) Dumping path for -3 fd via self 8 [/lib/x86_64-linux-gnu/libgcc_s.so.1]
+(00.009257) Dumping path for -3 fd via self 8 [/lib/x86_64-linux-gnu/libm-2.27.so]
+(00.009304) Dumping path for -3 fd via self 8 [/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25]
+(00.009352) Dumping path for -3 fd via self 8 [/lib/x86_64-linux-gnu/ld-2.27.so]
+(00.009412) Collected, longest area occupies 16351 pages
+(00.009414) 0x562863b8f000-0x562863b97000 (32K) prot 0x5 flags 0x2 fdflags 0 st 0x41 off 0 reg fp  shmid: 0x1
+(00.009417) 0x562863d96000-0x562863d97000 (4K) prot 0x1 flags 0x2 fdflags 0 st 0x41 off 0x7000 reg fp  shmid: 0x1
+(00.009419) 0x562863d97000-0x562863d98000 (4K) prot 0x3 flags 0x2 fdflags 0 st 0x41 off 0x8000 reg fp  shmid: 0x1
+(00.009421) 0x562864d9b000-0x562864dbc000 (132K) prot 0x3 flags 0x22 fdflags 0 st 0x221 off 0 reg heap ap  shmid: 0
+(00.009423) 0x7f8f94000000-0x7f8f94021000 (132K) prot 0x3 flags 0x4022 fdflags 0 st 0x201 off 0 reg ap  shmid: 0
+(00.009425) 0x7f8f94021000-0x7f8f98000000 (65404K) prot 0 flags 0x4022 fdflags 0 st 0x201 off 0 reg ap  shmid: 0
+(00.009427) 0x7f8f9ad52000-0x7f8f9ad53000 (4K) prot 0 flags 0x22 fdflags 0 st 0x201 off 0 reg ap  shmid: 0
+(00.009429) 0x7f8f9ad53000-0x7f8f9b553000 (8192K) prot 0x3 flags 0x22 fdflags 0 st 0x201 off 0 reg ap  shmid: 0
+(00.009431) 0x7f8f9b553000-0x7f8f9b554000 (4K) prot 0 flags 0x22 fdflags 0 st 0x201 off 0 reg ap  shmid: 0
+(00.009433) 0x7f8f9b554000-0x7f8f9bd54000 (8192K) prot 0x3 flags 0x22 fdflags 0 st 0x201 off 0 reg ap  shmid: 0
+(00.009435) 0x7f8f9bd54000-0x7f8f9bd55000 (4K) prot 0 flags 0x22 fdflags 0 st 0x201 off 0 reg ap  shmid: 0
+(00.009436) 0x7f8f9bd55000-0x7f8f9c555000 (8192K) prot 0x3 flags 0x22 fdflags 0 st 0x201 off 0 reg ap  shmid: 0
+(00.009438) 0x7f8f9c555000-0x7f8f9c556000 (4K) prot 0 flags 0x22 fdflags 0 st 0x201 off 0 reg ap  shmid: 0
+(00.009440) 0x7f8f9c556000-0x7f8f9cd56000 (8192K) prot 0x3 flags 0x22 fdflags 0 st 0x201 off 0 reg ap  shmid: 0
+(00.009442) 0x7f8f9cd56000-0x7f8f9cd57000 (4K) prot 0 flags 0x22 fdflags 0 st 0x201 off 0 reg ap  shmid: 0
+(00.009444) 0x7f8f9cd57000-0x7f8f9d557000 (8192K) prot 0x3 flags 0x22 fdflags 0 st 0x201 off 0 reg ap  shmid: 0
+(00.009445) 0x7f8f9d557000-0x7f8f9d73e000 (1948K) prot 0x5 flags 0x2 fdflags 0 st 0x41 off 0 reg fp  shmid: 0x2
+(00.009447) 0x7f8f9d73e000-0x7f8f9d93e000 (2048K) prot 0 flags 0x2 fdflags 0 st 0x41 off 0x1e7000 reg fp  shmid: 0x2
+(00.009449) 0x7f8f9d93e000-0x7f8f9d942000 (16K) prot 0x1 flags 0x2 fdflags 0 st 0x41 off 0x1e7000 reg fp  shmid: 0x2
+(00.009451) 0x7f8f9d942000-0x7f8f9d944000 (8K) prot 0x3 flags 0x2 fdflags 0 st 0x41 off 0x1eb000 reg fp  shmid: 0x2
+(00.009453) 0x7f8f9d944000-0x7f8f9d948000 (16K) prot 0x3 flags 0x22 fdflags 0 st 0x201 off 0 reg ap  shmid: 0
+(00.009455) 0x7f8f9d948000-0x7f8f9d962000 (104K) prot 0x5 flags 0x2 fdflags 0 st 0x41 off 0 reg fp  shmid: 0x3
+(00.009457) 0x7f8f9d962000-0x7f8f9db61000 (2044K) prot 0 flags 0x2 fdflags 0 st 0x41 off 0x1a000 reg fp  shmid: 0x3
+(00.009458) 0x7f8f9db61000-0x7f8f9db62000 (4K) prot 0x1 flags 0x2 fdflags 0 st 0x41 off 0x19000 reg fp  shmid: 0x3
+(00.009463) 0x7f8f9db62000-0x7f8f9db63000 (4K) prot 0x3 flags 0x2 fdflags 0 st 0x41 off 0x1a000 reg fp  shmid: 0x3
+(00.009465) 0x7f8f9db63000-0x7f8f9db67000 (16K) prot 0x3 flags 0x22 fdflags 0 st 0x201 off 0 reg ap  shmid: 0
+(00.009467) 0x7f8f9db67000-0x7f8f9db7e000 (92K) prot 0x5 flags 0x2 fdflags 0 st 0x41 off 0 reg fp  shmid: 0x4
+(00.009468) 0x7f8f9db7e000-0x7f8f9dd7d000 (2044K) prot 0 flags 0x2 fdflags 0 st 0x41 off 0x17000 reg fp  shmid: 0x4
+(00.009470) 0x7f8f9dd7d000-0x7f8f9dd7e000 (4K) prot 0x1 flags 0x2 fdflags 0 st 0x41 off 0x16000 reg fp  shmid: 0x4
+(00.009472) 0x7f8f9dd7e000-0x7f8f9dd7f000 (4K) prot 0x3 flags 0x2 fdflags 0 st 0x41 off 0x17000 reg fp  shmid: 0x4
+(00.009474) 0x7f8f9dd7f000-0x7f8f9df1c000 (1652K) prot 0x5 flags 0x2 fdflags 0 st 0x41 off 0 reg fp  shmid: 0x5
+(00.009476) 0x7f8f9df1c000-0x7f8f9e11b000 (2044K) prot 0 flags 0x2 fdflags 0 st 0x41 off 0x19d000 reg fp  shmid: 0x5
+(00.009478) 0x7f8f9e11b000-0x7f8f9e11c000 (4K) prot 0x1 flags 0x2 fdflags 0 st 0x41 off 0x19c000 reg fp  shmid: 0x5
+(00.009479) 0x7f8f9e11c000-0x7f8f9e11d000 (4K) prot 0x3 flags 0x2 fdflags 0 st 0x41 off 0x19d000 reg fp  shmid: 0x5
+(00.009481) 0x7f8f9e11d000-0x7f8f9e296000 (1508K) prot 0x5 flags 0x2 fdflags 0 st 0x41 off 0 reg fp  shmid: 0x6
+(00.009483) 0x7f8f9e296000-0x7f8f9e496000 (2048K) prot 0 flags 0x2 fdflags 0 st 0x41 off 0x179000 reg fp  shmid: 0x6
+(00.009485) 0x7f8f9e496000-0x7f8f9e4a0000 (40K) prot 0x1 flags 0x2 fdflags 0 st 0x41 off 0x179000 reg fp  shmid: 0x6
+(00.009487) 0x7f8f9e4a0000-0x7f8f9e4a2000 (8K) prot 0x3 flags 0x2 fdflags 0 st 0x41 off 0x183000 reg fp  shmid: 0x6
+(00.009489) 0x7f8f9e4a2000-0x7f8f9e4a6000 (16K) prot 0x3 flags 0x22 fdflags 0 st 0x201 off 0 reg ap  shmid: 0
+(00.009490) 0x7f8f9e4a6000-0x7f8f9e4cf000 (164K) prot 0x5 flags 0x2 fdflags 0 st 0x41 off 0 reg fp  shmid: 0x7
+(00.009492) 0x7f8f9e6a9000-0x7f8f9e6b0000 (28K) prot 0x3 flags 0x22 fdflags 0 st 0x201 off 0 reg ap  shmid: 0
+(00.009494) 0x7f8f9e6cf000-0x7f8f9e6d0000 (4K) prot 0x1 flags 0x2 fdflags 0 st 0x41 off 0x29000 reg fp  shmid: 0x7
+(00.009496) 0x7f8f9e6d0000-0x7f8f9e6d1000 (4K) prot 0x3 flags 0x2 fdflags 0 st 0x41 off 0x2a000 reg fp  shmid: 0x7
+(00.009498) 0x7f8f9e6d1000-0x7f8f9e6d2000 (4K) prot 0x3 flags 0x22 fdflags 0 st 0x201 off 0 reg ap  shmid: 0
+(00.009500) 0x7fff40ccc000-0x7fff40ced000 (132K) prot 0x3 flags 0x122 fdflags 0 st 0x201 off 0 reg ap  shmid: 0
+(00.009502) 0x7fff40d88000-0x7fff40d8b000 (12K) prot 0x1 flags 0x22 fdflags 0 st 0x1201 off 0 reg vvar ap  shmid: 0
+(00.009503) 0x7fff40d8b000-0x7fff40d8c000 (4K) prot 0x5 flags 0x22 fdflags 0 st 0x209 off 0 reg vdso ap  shmid: 0
+(00.009505) 0xffffffffff600000-0xffffffffff601000 (4K) prot 0x4 flags 0x22 fdflags 0 st 0x204 off 0 vsys ap  shmid: 0
+(00.009507) ----------------------------------------
+(00.009509) 
+(00.009511) Collecting fds (pid: 5482)
+(00.009512) ----------------------------------------
+(00.009525) Found 4 file descriptors
+(00.009527) ----------------------------------------
+(00.009741) Set up parasite blob using memfd
+(00.009745) Putting parasite blob into 0x7f68c2bd8000->0x7f8f9e622000
+(00.009822) Dumping general registers for 5482 in native mode
+(00.009825) Dumping GP/FPU registers for 5482
+(00.009843) Putting tsock into pid 5482
+(00.009922) Wait for parasite being daemonized...
+(00.009934) Parasite 5482 has been switched to daemon mode
+(00.009936) vdso: vDSO hint is reliable - omit checking
+(00.010003) sid=5482 pgid=5482 pid=5482
+(00.010016) 
+(00.010018) Dumping opened files (pid: 5482)
+(00.010020) ----------------------------------------
+(00.010049) 5482 fdinfo 0: pos:                0 flags:           100000/0
+(00.010058) Dumping path for 0 fd via self 8 [/dev/null]
+(00.010080) 5482 fdinfo 1: pos:                0 flags:           100002/0
+(00.010087) tty: Dumping tty 10 with id 0x9
+(00.010091) Dumping path for 1 fd via self 10 [/dev/pts/1]
+(00.010130) 5482 fdinfo 2: pos:                0 flags:           100002/0
+(00.010145) 5482 fdinfo 3: pos:                0 flags:           100001/0
+(00.010152) Dumping path for 3 fd via self 12 [/home/frank/CLionProjects/DAG/thePipe]
+(00.010159) Dumping fifo 12 with id 0xb pipe_id 0x103014
+(00.010163) ----------------------------------------
+(00.010194) 
+(00.010196) Dumping pages (type: 52 pid: 5482)
+(00.010198) ----------------------------------------
+(00.010228) Pagemap generated: 1 pages (0 lazy) 0 holes
+(00.010232) Pagemap generated: 1 pages (0 lazy) 0 holes
+(00.010235) Pagemap generated: 1 pages (0 lazy) 0 holes
+(00.010241) Pagemap generated: 4 pages (0 lazy) 0 holes
+(00.010245) Pagemap generated: 1 pages (0 lazy) 0 holes
+(00.010349) Pagemap generated: 0 pages (0 lazy) 0 holes
+(00.010353) Pagemap generated: 0 pages (0 lazy) 0 holes
+(00.010366) Pagemap generated: 5 pages (0 lazy) 0 holes
+(00.010369) Pagemap generated: 0 pages (0 lazy) 0 holes
+(00.010382) Pagemap generated: 2 pages (0 lazy) 0 holes
+(00.010385) Pagemap generated: 0 pages (0 lazy) 0 holes
+(00.010397) Pagemap generated: 2 pages (0 lazy) 0 holes
+(00.010400) Pagemap generated: 0 pages (0 lazy) 0 holes
+(00.010413) Pagemap generated: 2 pages (0 lazy) 0 holes
+(00.010416) Pagemap generated: 0 pages (0 lazy) 0 holes
+(00.010430) Pagemap generated: 2 pages (0 lazy) 0 holes
+(00.010438) Pagemap generated: 0 pages (0 lazy) 0 holes
+(00.010444) Pagemap generated: 0 pages (0 lazy) 0 holes
+(00.010450) Pagemap generated: 4 pages (0 lazy) 0 holes
+(00.010453) Pagemap generated: 2 pages (0 lazy) 0 holes
+(00.010458) Pagemap generated: 3 pages (0 lazy) 0 holes
+(00.010462) Pagemap generated: 0 pages (0 lazy) 0 holes
+(00.010467) Pagemap generated: 0 pages (0 lazy) 0 holes
+(00.010472) Pagemap generated: 1 pages (0 lazy) 0 holes
+(00.010476) Pagemap generated: 1 pages (0 lazy) 0 holes
+(00.010481) Pagemap generated: 1 pages (0 lazy) 0 holes
+(00.010484) Pagemap generated: 0 pages (0 lazy) 0 holes
+(00.010490) Pagemap generated: 0 pages (0 lazy) 0 holes
+(00.010495) Pagemap generated: 1 pages (0 lazy) 0 holes
+(00.010499) Pagemap generated: 1 pages (0 lazy) 0 holes
+(00.010505) Pagemap generated: 0 pages (0 lazy) 0 holes
+(00.010512) Pagemap generated: 0 pages (0 lazy) 0 holes
+(00.010517) Pagemap generated: 1 pages (0 lazy) 0 holes
+(00.010521) Pagemap generated: 1 pages (0 lazy) 0 holes
+(00.010528) Pagemap generated: 0 pages (0 lazy) 0 holes
+(00.010535) Pagemap generated: 0 pages (0 lazy) 0 holes
+(00.010539) Pagemap generated: 10 pages (0 lazy) 0 holes
+(00.010543) Pagemap generated: 2 pages (0 lazy) 0 holes
+(00.010549) Pagemap generated: 4 pages (0 lazy) 0 holes
+(00.010552) Pagemap generated: 0 pages (0 lazy) 0 holes
+(00.010556) Pagemap generated: 6 pages (0 lazy) 0 holes
+(00.010808) Pagemap generated: 1 pages (0 lazy) 0 holes
+(00.010813) Pagemap generated: 1 pages (0 lazy) 0 holes
+(00.010816) Pagemap generated: 1 pages (0 lazy) 0 holes
+(00.010819) Pagemap generated: 3 pages (0 lazy) 0 holes
+(00.010822) Pagemap generated: 0 pages (0 lazy) 0 holes
+(00.010825) Pagemap generated: 1 pages (0 lazy) 0 holes
+(00.010945) ----------------------------------------
+(00.011092) 
+(00.011094) Dumping core (pid: 5482)
+(00.011096) ----------------------------------------
+(00.011098) Obtaining personality ... 
+(00.011193) 5482 has 0 sched policy
+(00.011196) 	dumping 0 nice for 5482
+(00.011198) dumping /proc/5482/loginuid
+(00.011203) dumping /proc/5482/oom_score_adj
+(00.011246) cg: Dumping cgroups for 5482
+(00.011270) cg: Set 1 is root one
+(00.011297) ----------------------------------------
+(00.011375) 
+(00.011378) Dumping core for thread (pid: 5484)
+(00.011380) ----------------------------------------
+(00.011383) Dumping general registers for 5484 in native mode
+(00.011385) Warn  (compel/arch/x86/src/lib/infect.c:249): Will restore 5484 with interrupted system call
+(00.011387) Dumping GP/FPU registers for 5484
+(00.011498) 5484 has 0 sched policy
+(00.011501) 	dumping 0 nice for 5484
+(00.011524) ----------------------------------------
+(00.011539) 
+(00.011540) Dumping core for thread (pid: 5485)
+(00.011542) ----------------------------------------
+(00.011546) Dumping general registers for 5485 in native mode
+(00.011547) Dumping GP/FPU registers for 5485
+(00.011616) 5485 has 0 sched policy
+(00.011621) 	dumping 0 nice for 5485
+(00.011652) ----------------------------------------
+(00.011653) 
+(00.011655) Dumping core for thread (pid: 5486)
+(00.011656) ----------------------------------------
+(00.011660) Dumping general registers for 5486 in native mode
+(00.011662) Warn  (compel/arch/x86/src/lib/infect.c:249): Will restore 5486 with interrupted system call
+(00.011664) Dumping GP/FPU registers for 5486
+(00.011718) 5486 has 0 sched policy
+(00.011721) 	dumping 0 nice for 5486
+(00.011739) ----------------------------------------
+(00.011741) 
+(00.011742) Dumping core for thread (pid: 5487)
+(00.011744) ----------------------------------------
+(00.011748) Dumping general registers for 5487 in native mode
+(00.011749) Warn  (compel/arch/x86/src/lib/infect.c:249): Will restore 5487 with interrupted system call
+(00.011751) Dumping GP/FPU registers for 5487
+(00.011806) 5487 has 0 sched policy
+(00.011808) 	dumping 0 nice for 5487
+(00.011825) ----------------------------------------
+(00.011827) 
+(00.011829) Dumping core for thread (pid: 5488)
+(00.011830) ----------------------------------------
+(00.011834) Dumping general registers for 5488 in native mode
+(00.011836) Warn  (compel/arch/x86/src/lib/infect.c:249): Will restore 5488 with interrupted system call
+(00.011837) Dumping GP/FPU registers for 5488
+(00.011909) 5488 has 0 sched policy
+(00.011912) 	dumping 0 nice for 5488
+(00.011929) ----------------------------------------
+(00.012011) 
+(00.012014) Dumping mm (pid: 5482)
+(00.012015) ----------------------------------------
+(00.012017) 0x562863b8f000-0x562863b97000 (32K) prot 0x5 flags 0x2 fdflags 0 st 0x41 off 0 reg fp  shmid: 0x1
+(00.012020) 0x562863d96000-0x562863d97000 (4K) prot 0x1 flags 0x2 fdflags 0 st 0x41 off 0x7000 reg fp  shmid: 0x1
+(00.012022) 0x562863d97000-0x562863d98000 (4K) prot 0x3 flags 0x2 fdflags 0 st 0x41 off 0x8000 reg fp  shmid: 0x1
+(00.012024) 0x562864d9b000-0x562864dbc000 (132K) prot 0x3 flags 0x22 fdflags 0 st 0x221 off 0 reg heap ap  shmid: 0
+(00.012026) 0x7f8f94000000-0x7f8f94021000 (132K) prot 0x3 flags 0x4022 fdflags 0 st 0x201 off 0 reg ap  shmid: 0
+(00.012028) 0x7f8f94021000-0x7f8f98000000 (65404K) prot 0 flags 0x4022 fdflags 0 st 0x201 off 0 reg ap  shmid: 0
+(00.012030) 0x7f8f9ad52000-0x7f8f9ad53000 (4K) prot 0 flags 0x22 fdflags 0 st 0x201 off 0 reg ap  shmid: 0
+(00.012032) 0x7f8f9ad53000-0x7f8f9b553000 (8192K) prot 0x3 flags 0x22 fdflags 0 st 0x201 off 0 reg ap  shmid: 0
+(00.012034) 0x7f8f9b553000-0x7f8f9b554000 (4K) prot 0 flags 0x22 fdflags 0 st 0x201 off 0 reg ap  shmid: 0
+(00.012036) 0x7f8f9b554000-0x7f8f9bd54000 (8192K) prot 0x3 flags 0x22 fdflags 0 st 0x201 off 0 reg ap  shmid: 0
+(00.012038) 0x7f8f9bd54000-0x7f8f9bd55000 (4K) prot 0 flags 0x22 fdflags 0 st 0x201 off 0 reg ap  shmid: 0
+(00.012040) 0x7f8f9bd55000-0x7f8f9c555000 (8192K) prot 0x3 flags 0x22 fdflags 0 st 0x201 off 0 reg ap  shmid: 0
+(00.012041) 0x7f8f9c555000-0x7f8f9c556000 (4K) prot 0 flags 0x22 fdflags 0 st 0x201 off 0 reg ap  shmid: 0
+(00.012043) 0x7f8f9c556000-0x7f8f9cd56000 (8192K) prot 0x3 flags 0x22 fdflags 0 st 0x201 off 0 reg ap  shmid: 0
+(00.012045) 0x7f8f9cd56000-0x7f8f9cd57000 (4K) prot 0 flags 0x22 fdflags 0 st 0x201 off 0 reg ap  shmid: 0
+(00.012047) 0x7f8f9cd57000-0x7f8f9d557000 (8192K) prot 0x3 flags 0x22 fdflags 0 st 0x201 off 0 reg ap  shmid: 0
+(00.012049) 0x7f8f9d557000-0x7f8f9d73e000 (1948K) prot 0x5 flags 0x2 fdflags 0 st 0x41 off 0 reg fp  shmid: 0x2
+(00.012051) 0x7f8f9d73e000-0x7f8f9d93e000 (2048K) prot 0 flags 0x2 fdflags 0 st 0x41 off 0x1e7000 reg fp  shmid: 0x2
+(00.012053) 0x7f8f9d93e000-0x7f8f9d942000 (16K) prot 0x1 flags 0x2 fdflags 0 st 0x41 off 0x1e7000 reg fp  shmid: 0x2
+(00.012055) 0x7f8f9d942000-0x7f8f9d944000 (8K) prot 0x3 flags 0x2 fdflags 0 st 0x41 off 0x1eb000 reg fp  shmid: 0x2
+(00.012056) 0x7f8f9d944000-0x7f8f9d948000 (16K) prot 0x3 flags 0x22 fdflags 0 st 0x201 off 0 reg ap  shmid: 0
+(00.012058) 0x7f8f9d948000-0x7f8f9d962000 (104K) prot 0x5 flags 0x2 fdflags 0 st 0x41 off 0 reg fp  shmid: 0x3
+(00.012060) 0x7f8f9d962000-0x7f8f9db61000 (2044K) prot 0 flags 0x2 fdflags 0 st 0x41 off 0x1a000 reg fp  shmid: 0x3
+(00.012064) 0x7f8f9db61000-0x7f8f9db62000 (4K) prot 0x1 flags 0x2 fdflags 0 st 0x41 off 0x19000 reg fp  shmid: 0x3
+(00.012066) 0x7f8f9db62000-0x7f8f9db63000 (4K) prot 0x3 flags 0x2 fdflags 0 st 0x41 off 0x1a000 reg fp  shmid: 0x3
+(00.012068) 0x7f8f9db63000-0x7f8f9db67000 (16K) prot 0x3 flags 0x22 fdflags 0 st 0x201 off 0 reg ap  shmid: 0
+(00.012070) 0x7f8f9db67000-0x7f8f9db7e000 (92K) prot 0x5 flags 0x2 fdflags 0 st 0x41 off 0 reg fp  shmid: 0x4
+(00.012072) 0x7f8f9db7e000-0x7f8f9dd7d000 (2044K) prot 0 flags 0x2 fdflags 0 st 0x41 off 0x17000 reg fp  shmid: 0x4
+(00.012074) 0x7f8f9dd7d000-0x7f8f9dd7e000 (4K) prot 0x1 flags 0x2 fdflags 0 st 0x41 off 0x16000 reg fp  shmid: 0x4
+(00.012076) 0x7f8f9dd7e000-0x7f8f9dd7f000 (4K) prot 0x3 flags 0x2 fdflags 0 st 0x41 off 0x17000 reg fp  shmid: 0x4
+(00.012077) 0x7f8f9dd7f000-0x7f8f9df1c000 (1652K) prot 0x5 flags 0x2 fdflags 0 st 0x41 off 0 reg fp  shmid: 0x5
+(00.012079) 0x7f8f9df1c000-0x7f8f9e11b000 (2044K) prot 0 flags 0x2 fdflags 0 st 0x41 off 0x19d000 reg fp  shmid: 0x5
+(00.012081) 0x7f8f9e11b000-0x7f8f9e11c000 (4K) prot 0x1 flags 0x2 fdflags 0 st 0x41 off 0x19c000 reg fp  shmid: 0x5
+(00.012083) 0x7f8f9e11c000-0x7f8f9e11d000 (4K) prot 0x3 flags 0x2 fdflags 0 st 0x41 off 0x19d000 reg fp  shmid: 0x5
+(00.012085) 0x7f8f9e11d000-0x7f8f9e296000 (1508K) prot 0x5 flags 0x2 fdflags 0 st 0x41 off 0 reg fp  shmid: 0x6
+(00.012087) 0x7f8f9e296000-0x7f8f9e496000 (2048K) prot 0 flags 0x2 fdflags 0 st 0x41 off 0x179000 reg fp  shmid: 0x6
+(00.012089) 0x7f8f9e496000-0x7f8f9e4a0000 (40K) prot 0x1 flags 0x2 fdflags 0 st 0x41 off 0x179000 reg fp  shmid: 0x6
+(00.012090) 0x7f8f9e4a0000-0x7f8f9e4a2000 (8K) prot 0x3 flags 0x2 fdflags 0 st 0x41 off 0x183000 reg fp  shmid: 0x6
+(00.012092) 0x7f8f9e4a2000-0x7f8f9e4a6000 (16K) prot 0x3 flags 0x22 fdflags 0 st 0x201 off 0 reg ap  shmid: 0
+(00.012094) 0x7f8f9e4a6000-0x7f8f9e4cf000 (164K) prot 0x5 flags 0x2 fdflags 0 st 0x41 off 0 reg fp  shmid: 0x7
+(00.012096) 0x7f8f9e6a9000-0x7f8f9e6b0000 (28K) prot 0x3 flags 0x22 fdflags 0 st 0x201 off 0 reg ap  shmid: 0
+(00.012098) 0x7f8f9e6cf000-0x7f8f9e6d0000 (4K) prot 0x1 flags 0x2 fdflags 0 st 0x41 off 0x29000 reg fp  shmid: 0x7
+(00.012100) 0x7f8f9e6d0000-0x7f8f9e6d1000 (4K) prot 0x3 flags 0x2 fdflags 0 st 0x41 off 0x2a000 reg fp  shmid: 0x7
+(00.012102) 0x7f8f9e6d1000-0x7f8f9e6d2000 (4K) prot 0x3 flags 0x22 fdflags 0 st 0x201 off 0 reg ap  shmid: 0
+(00.012103) 0x7fff40ccc000-0x7fff40ced000 (132K) prot 0x3 flags 0x122 fdflags 0 st 0x201 off 0 reg ap  shmid: 0
+(00.012105) 0x7fff40d88000-0x7fff40d8b000 (12K) prot 0x1 flags 0x22 fdflags 0 st 0x1201 off 0 reg vvar ap  shmid: 0
+(00.012107) 0x7fff40d8b000-0x7fff40d8c000 (4K) prot 0x5 flags 0x22 fdflags 0 st 0x209 off 0 reg vdso ap  shmid: 0
+(00.012109) 0xffffffffff600000-0xffffffffff601000 (4K) prot 0x4 flags 0x22 fdflags 0 st 0x204 off 0 vsys ap  shmid: 0
+(00.012112) Obtaining task auvx ...
+(00.012165) Dumping path for -3 fd via self 10 [/home/frank/CLionProjects/DAG]
+(00.012183) Dumping path for -3 fd via self 10 [/]
+(00.012188) Dumping task cwd id 0xd root id 0xe
+(00.012218) Dumping file-locks
+(00.012220) 
+(00.012222) Dumping pstree (pid: 5482)
+(00.012223) ----------------------------------------
+(00.012225) Process: 5482(5482)
+(00.012233) ----------------------------------------
+(00.012239) cg: All tasks in criu's cgroups. Nothing to dump.
+(00.012262) Writing image inventory (version 1)
+(00.012293) Unlock network
+(00.012297) Unfreezing tasks into 1
+(00.012329) Writing stats
+(00.012362) Dumping finished successfully

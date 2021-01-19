@@ -1,0 +1,193 @@
+(00.000288) Reading image tree
+(00.000381) Add mnt ns 5 pid 5482
+(00.000413) Will restore in 0 namespaces
+(00.000438) Collecting 37/54 (flags 2)
+(00.000471) Collected [home/frank/CLionProjects/DAG/tasksWithPipe.out] ID 0x1
+(00.000491) Collected [lib/x86_64-linux-gnu/libc-2.27.so] ID 0x2
+(00.000502) Collected [lib/x86_64-linux-gnu/libpthread-2.27.so] ID 0x3
+(00.000513) Collected [lib/x86_64-linux-gnu/libgcc_s.so.1] ID 0x4
+(00.000523) Collected [lib/x86_64-linux-gnu/libm-2.27.so] ID 0x5
+(00.000532) Collected [usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25] ID 0x6
+(00.000542) Collected [lib/x86_64-linux-gnu/ld-2.27.so] ID 0x7
+(00.000553) Collected [dev/null] ID 0x8
+(00.000563) Collected [dev/pts/1] ID 0xa
+(00.000576) Collected [home/frank/CLionProjects/DAG/thePipe] ID 0xc
+(00.000591) Collected fifo entry ID 0xb PIPE ID 0x103014
+(00.000603) Collected [home/frank/CLionProjects/DAG] ID 0xd
+(00.000614) Collected [.] ID 0xe
+(00.000629) Collecting 43/59 (flags 0)
+(00.000645) No remap-fpath.img image
+(00.000668) No cgroup.img image
+(00.000767) No mountpoints-5.img image
+(00.000915) Forking task with 5482 pid (flags 0x0)
+(00.001640)   5482: cg: Cgroups 1 inherited from parent
+(00.001723)   5482: Calling restore_sid() for init
+(00.001741)   5482: Restoring 5482 to 5482 sid
+(00.001801)   5482: Collecting 41/37 (flags 2)
+(00.001901)   5482: tty: Collected tty ID 0x9 (pts)
+(00.001935)   5482: Collecting 42/51 (flags 0)
+(00.001950)   5482: No tty-data.img image
+(00.001959)   5482: Restoring namespaces 5482 flags 0x0
+(00.001968)   5482: Preparing info about shared resources
+(00.001981)   5482: No seccomp.img image
+(00.001990)   5482: Collecting 45/38 (flags 0)
+(00.002002)   5482: No filelocks.img image
+(00.002010)   5482: Collecting 39/27 (flags 0)
+(00.002023)   5482: No pipes-data.img image
+(00.002031)   5482: Collecting 40/27 (flags 0)
+(00.002044)   5482: No fifo-data.img image
+(00.002052)   5482: Collecting 38/60 (flags 0)
+(00.002064)   5482: No sk-queues.img image
+(00.002166)   5482: vma 0x562863b8f000 0x562863b97000
+(00.002177)   5482: vma 0x562863d96000 0x562863d97000
+(00.002185)   5482: vma 0x562863d97000 0x562863d98000
+(00.002192)   5482: vma 0x562864d9b000 0x562864dbc000
+(00.002200)   5482: vma 0x7f8f94000000 0x7f8f94021000
+(00.002208)   5482: vma 0x7f8f94021000 0x7f8f98000000
+(00.002216)   5482: vma 0x7f8f9ad52000 0x7f8f9ad53000
+(00.002224)   5482: vma 0x7f8f9ad53000 0x7f8f9b553000
+(00.002231)   5482: vma 0x7f8f9b553000 0x7f8f9b554000
+(00.002240)   5482: vma 0x7f8f9b554000 0x7f8f9bd54000
+(00.002247)   5482: vma 0x7f8f9bd54000 0x7f8f9bd55000
+(00.002255)   5482: vma 0x7f8f9bd55000 0x7f8f9c555000
+(00.002263)   5482: vma 0x7f8f9c555000 0x7f8f9c556000
+(00.002271)   5482: vma 0x7f8f9c556000 0x7f8f9cd56000
+(00.002278)   5482: vma 0x7f8f9cd56000 0x7f8f9cd57000
+(00.002286)   5482: vma 0x7f8f9cd57000 0x7f8f9d557000
+(00.002294)   5482: vma 0x7f8f9d557000 0x7f8f9d73e000
+(00.002302)   5482: vma 0x7f8f9d73e000 0x7f8f9d93e000
+(00.002309)   5482: vma 0x7f8f9d93e000 0x7f8f9d942000
+(00.002317)   5482: vma 0x7f8f9d942000 0x7f8f9d944000
+(00.002325)   5482: vma 0x7f8f9d944000 0x7f8f9d948000
+(00.002333)   5482: vma 0x7f8f9d948000 0x7f8f9d962000
+(00.002341)   5482: vma 0x7f8f9d962000 0x7f8f9db61000
+(00.002349)   5482: vma 0x7f8f9db61000 0x7f8f9db62000
+(00.002356)   5482: vma 0x7f8f9db62000 0x7f8f9db63000
+(00.002364)   5482: vma 0x7f8f9db63000 0x7f8f9db67000
+(00.002372)   5482: vma 0x7f8f9db67000 0x7f8f9db7e000
+(00.002380)   5482: vma 0x7f8f9db7e000 0x7f8f9dd7d000
+(00.002388)   5482: vma 0x7f8f9dd7d000 0x7f8f9dd7e000
+(00.002395)   5482: vma 0x7f8f9dd7e000 0x7f8f9dd7f000
+(00.002403)   5482: vma 0x7f8f9dd7f000 0x7f8f9df1c000
+(00.002411)   5482: vma 0x7f8f9df1c000 0x7f8f9e11b000
+(00.002419)   5482: vma 0x7f8f9e11b000 0x7f8f9e11c000
+(00.002436)   5482: vma 0x7f8f9e11c000 0x7f8f9e11d000
+(00.002444)   5482: vma 0x7f8f9e11d000 0x7f8f9e296000
+(00.002452)   5482: vma 0x7f8f9e296000 0x7f8f9e496000
+(00.002460)   5482: vma 0x7f8f9e496000 0x7f8f9e4a0000
+(00.002468)   5482: vma 0x7f8f9e4a0000 0x7f8f9e4a2000
+(00.002476)   5482: vma 0x7f8f9e4a2000 0x7f8f9e4a6000
+(00.002483)   5482: vma 0x7f8f9e4a6000 0x7f8f9e4cf000
+(00.002514)   5482: vma 0x7f8f9e6a9000 0x7f8f9e6b0000
+(00.002523)   5482: vma 0x7f8f9e6cf000 0x7f8f9e6d0000
+(00.002531)   5482: vma 0x7f8f9e6d0000 0x7f8f9e6d1000
+(00.002539)   5482: vma 0x7f8f9e6d1000 0x7f8f9e6d2000
+(00.002547)   5482: vma 0x7fff40ccc000 0x7fff40ced000
+(00.002554)   5482: vma 0x7fff40d88000 0x7fff40d8b000
+(00.002562)   5482: vma 0x7fff40d8b000 0x7fff40d8c000
+(00.002570)   5482: vma 0xffffffffff600000 0xffffffffff601000
+(00.002597)   5482: Collect fdinfo pid=5482 fd=0 id=0x8
+(00.002609)   5482: Collect fdinfo pid=5482 fd=1 id=0x9
+(00.002618)   5482: Collect fdinfo pid=5482 fd=2 id=0x9
+(00.002627)   5482: Collect fdinfo pid=5482 fd=3 id=0xb
+(00.002731)   5482: Preparing SCMs
+(00.002743)   5482: tty: Inherit terminal for id 0x9
+(00.002752)   5482: tty: head driver pts id 0x9 index 1 (master 0 sid 0 pgrp 0 inherit 1)
+(00.002763)   5482: File descs:
+(00.002771)   5482:  `- type 1 ID 0x1
+(00.002779)   5482:  `- type 1 ID 0x2
+(00.002787)   5482:  `- type 1 ID 0x3
+(00.002794)   5482:  `- type 1 ID 0x4
+(00.002801)   5482:  `- type 1 ID 0x5
+(00.002809)   5482:  `- type 1 ID 0x6
+(00.002816)   5482:  `- type 1 ID 0x7
+(00.002824)   5482:  `- type 1 ID 0x8
+(00.002831)   5482:    `- FD 0 pid 5482
+(00.002839)   5482:  `- type 11 ID 0x9
+(00.002847)   5482:    `- FD 1 pid 5482
+(00.002855)   5482:    `- FD 2 pid 5482
+(00.002863)   5482:  `- type 1 ID 0xa
+(00.002870)   5482:  `- type 3 ID 0xb
+(00.002878)   5482:    `- FD 3 pid 5482
+(00.002885)   5482:  `- type 1 ID 0xc
+(00.002893)   5482:  `- type 1 ID 0xd
+(00.002900)   5482:  `- type 1 ID 0xe
+(00.003009)   5482: nr_restored_pages: 66
+(00.003019)   5482: nr_shared_pages:   0
+(00.003027)   5482: nr_droped_pages:   0
+(00.003034)   5482: nr_lazy:           0
+(00.003057)   5482: Shrunk premap area to 0x7f11ed1a8000(0)
+(00.003066)   5482: Restore on-core sigactions for 5482
+(00.003193)   5482: Restoring children in alien sessions:
+(00.003201)   5482: Restoring children in our session:
+(00.003209)   5482: Restoring 5482 to 5482 pgid
+(00.003242)   5482: Restoring resources
+(00.003266)   5482: Opening fdinfo-s
+(00.003309)   5482: 		Create fd for 0
+(00.003319)   5482: tty: open driver pts id 0x9 index 1 (master 0 sid 0 pgrp 0 inherit 1)
+(00.003332)   5482: tty: Migrated slave peer 0x9 -> to fd 1
+(00.003386)   5482: 		Create fd for 1
+(00.003397)   5482: 			Going to dup 1 into 2
+(00.003410)   5482: 	Receive fd for 2
+(00.003451)   5482: No data for pipe 0x103014
+(00.003677)   5482: 		Create fd for 3
+(00.003708)   5482: Opening 0x00562863b8f000-0x00562863b97000 0000000000000000 (41) vma
+(00.003732)   5482: Opening 0x00562863d96000-0x00562863d97000 0x00000000007000 (41) vma
+(00.003742)   5482: Opening 0x00562863d97000-0x00562863d98000 0x00000000008000 (41) vma
+(00.003751)   5482: Opening 0x007f8f9d557000-0x007f8f9d73e000 0000000000000000 (20000041) vma
+(00.003768)   5482: Opening 0x007f8f9d73e000-0x007f8f9d93e000 0x000000001e7000 (41) vma
+(00.003777)   5482: Opening 0x007f8f9d93e000-0x007f8f9d942000 0x000000001e7000 (41) vma
+(00.003785)   5482: Opening 0x007f8f9d942000-0x007f8f9d944000 0x000000001eb000 (41) vma
+(00.003794)   5482: Opening 0x007f8f9d948000-0x007f8f9d962000 0000000000000000 (20000041) vma
+(00.003810)   5482: Opening 0x007f8f9d962000-0x007f8f9db61000 0x0000000001a000 (41) vma
+(00.003818)   5482: Opening 0x007f8f9db61000-0x007f8f9db62000 0x00000000019000 (41) vma
+(00.003827)   5482: Opening 0x007f8f9db62000-0x007f8f9db63000 0x0000000001a000 (41) vma
+(00.003835)   5482: Opening 0x007f8f9db67000-0x007f8f9db7e000 0000000000000000 (20000041) vma
+(00.003851)   5482: Opening 0x007f8f9db7e000-0x007f8f9dd7d000 0x00000000017000 (41) vma
+(00.003859)   5482: Opening 0x007f8f9dd7d000-0x007f8f9dd7e000 0x00000000016000 (41) vma
+(00.003867)   5482: Opening 0x007f8f9dd7e000-0x007f8f9dd7f000 0x00000000017000 (41) vma
+(00.003876)   5482: Opening 0x007f8f9dd7f000-0x007f8f9df1c000 0000000000000000 (20000041) vma
+(00.003891)   5482: Opening 0x007f8f9df1c000-0x007f8f9e11b000 0x0000000019d000 (41) vma
+(00.003899)   5482: Opening 0x007f8f9e11b000-0x007f8f9e11c000 0x0000000019c000 (41) vma
+(00.003921)   5482: Opening 0x007f8f9e11c000-0x007f8f9e11d000 0x0000000019d000 (41) vma
+(00.003929)   5482: Opening 0x007f8f9e11d000-0x007f8f9e296000 0000000000000000 (20000041) vma
+(00.003946)   5482: Opening 0x007f8f9e296000-0x007f8f9e496000 0x00000000179000 (41) vma
+(00.003955)   5482: Opening 0x007f8f9e496000-0x007f8f9e4a0000 0x00000000179000 (41) vma
+(00.003963)   5482: Opening 0x007f8f9e4a0000-0x007f8f9e4a2000 0x00000000183000 (41) vma
+(00.003971)   5482: Opening 0x007f8f9e4a6000-0x007f8f9e4cf000 0000000000000000 (20000041) vma
+(00.003987)   5482: Opening 0x007f8f9e6cf000-0x007f8f9e6d0000 0x00000000029000 (41) vma
+(00.003995)   5482: Opening 0x007f8f9e6d0000-0x007f8f9e6d1000 0x0000000002a000 (41) vma
+(00.004346)   5482: `- render 23 iovs (0x562863b8f000:4096...)
+(00.004360)   5482: Restore via sigreturn
+(00.004508)   5482: 6 threads require 264K of memory
+(00.004519)   5482: Found bootstrap VMA hint at: 0x10000 (needs ~280K)
+(00.004943)   5482: Thread    0 stack  0x18080 rt_sigframe  0x20080
+(00.004964)   5482: Thread    1 stack  0x20bc0 rt_sigframe  0x28bc0
+(00.004977)   5482: Thread    2 stack  0x29700 rt_sigframe  0x31700
+(00.004989)   5482: Thread    3 stack  0x32240 rt_sigframe  0x3a240
+(00.005001)   5482: Thread    4 stack  0x3ad80 rt_sigframe  0x42d80
+(00.005015)   5482: Thread    5 stack  0x438c0 rt_sigframe  0x4b8c0
+(00.005069)   5482: Restoring umask to 22
+(00.005111)   5482: task_args: 0x4d000
+task_args->pid: 5482
+task_args->nr_threads: 6
+task_args->clone_restore_fn: 0x10d80
+task_args->thread_args: 0x4d580
+(00.005132)pie: 5482: Switched to the restorer 5482
+(00.005939)pie: 5482: vdso: Runtime vdso/vvar matches dumpee, remap inplace
+(00.006115)pie: 5482: Restoring scheduler params 0.0.0
+(00.006264)pie: 5484: Restoring scheduler params 0.0.0
+(00.006296)pie: 5485: Restoring scheduler params 0.0.0
+(00.006360)pie: 5484: 5484: Restored
+(00.006366)pie: 5485: 5485: Restored
+(00.006385)pie: 5482: 5482: Restored
+(00.006386)pie: 5486: Restoring scheduler params 0.0.0
+(00.006396)pie: 5487: Restoring scheduler params 0.0.0
+(00.006396)pie: 5488: Restoring scheduler params 0.0.0
+(00.006400)pie: 5486: 5486: Restored
+(00.006409)pie: 5487: 5487: Restored
+(00.006441)pie: 5488: 5488: Restored
+(00.008573) Unlock network
+(00.008967)pie: 5482: restoring seccomp mode 0 for 5482
+(00.009092) Restore finished successfully. Resuming tasks.
+(00.009400) Writing stats

@@ -1,0 +1,5 @@
+Warn  (compel/arch/x86/src/lib/infect.c:249): Will restore 5574 with interrupted system call
+Warn  (compel/arch/x86/src/lib/infect.c:249): Will restore 5575 with interrupted system call
+Warn  (compel/arch/x86/src/lib/infect.c:249): Will restore 5576 with interrupted system call
+Warn  (compel/arch/x86/src/lib/infect.c:249): Will restore 5577 with interrupted system call
+Warn  (compel/arch/x86/src/lib/infect.c:249): Will restore 5578 with interrupted system call

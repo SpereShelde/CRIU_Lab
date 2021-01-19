@@ -1,0 +1,4 @@
+PID: 6034
+Save cp0
+Restore cp0
+pipeRestore.sh: line 22:  6034 Killed                  setsid ./tasksWithPipe.out < /dev/null
